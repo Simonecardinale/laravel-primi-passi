@@ -17,6 +17,23 @@ Route::get('/', function () {
     $data = [
         'menu' => [
             'Chi siamo', 'Dove andiamo', 'Da dove veniamo', 'Contattaci'
+        ],
+        'cards' => [
+            [
+            'img' => "https://source.unsplash.com/user/nature/300x200",
+            'title' => 'Titolo',
+            'descrizione' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi perspiciatis commodi cum aperiam tempore debitis maiores facilis quibusdam temporibus totam quasi ad voluptatem quaerat laudantium deserunt vel excepturi, doloribus ratione.'
+            ],
+            [
+                'img' => "https://source.unsplash.com/user/nature/300x200",
+                'title' => 'Titolo',
+                'descrizione' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi perspiciatis commodi cum aperiam tempore debitis maiores facilis quibusdam temporibus totam quasi ad voluptatem quaerat laudantium deserunt vel excepturi, doloribus ratione.'
+            ],
+            [
+                'img' => "https://source.unsplash.com/user/nature/300x200",
+                'title' => 'Titolo',
+                'descrizione' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi perspiciatis commodi cum aperiam tempore debitis maiores facilis quibusdam temporibus totam quasi ad voluptatem quaerat laudantium deserunt vel excepturi, doloribus ratione.'
+            ],
         ]
     ];
     return view('home', $data);

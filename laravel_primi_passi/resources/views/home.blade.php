@@ -19,7 +19,15 @@
         <h1>HEADER</h1>
     </header>
     <section>
-        
+        <div class="container">
+            @foreach ($cards as $item)
+            <div class="card">
+                <img src="{{$item['img']}}" alt="">
+                <h2>{{$item['title']}}</h2>
+                <p>{{$item['descrizione']}}</p>
+            </div>
+                @endforeach
+        </div>
     </section>
 </body>
 </html>
