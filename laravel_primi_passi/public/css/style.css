@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(46, 44, 44, 0.678);
+}
+
+ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul li {
+    padding: 10px;
+}
+
+ul li:hover {
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+header {
+    height: calc(100vh - 70px);
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
